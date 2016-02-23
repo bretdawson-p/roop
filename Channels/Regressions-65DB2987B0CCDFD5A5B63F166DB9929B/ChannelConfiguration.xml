@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="Regressions-FromHTTP-xfrnJM6HImyuvu"
-      commit_id="edb3b694da8c0c7dd1db35df15fda36f1dc8bf08"
-      commit_comment="Import Translators: Imported John Scalise&apos;s channels."
+      commit_id="966418f976e0f5e4621561ab8fe1fc33d944663b"
+      commit_comment="go"
       mapper_url_path="regressions/"/>
    <message_filter
       filter_after_logging="false"

@@ -1,7 +1,6 @@
 require 'app'
 require 'web.server'
 
-
 local Server = web.webserver.create{
    actions=regressions.actions,
    auth=false, -- Requires basic authentication username/password from this Iguana instance
