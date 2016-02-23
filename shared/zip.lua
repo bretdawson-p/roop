@@ -5,7 +5,6 @@ function zip.expand(FileName, Dir)
    if (Dir) then
       Command = Command..' -u -d '..Dir..' '
    end
-   
    Command = Command..FileName
    local P =io.popen(Command)
    local R =''

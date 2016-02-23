@@ -1,4 +1,3 @@
--- COMMENT COMMENT
 require 'app'
 require 'web.server'
 
@@ -11,8 +10,6 @@ local Server = web.webserver.create{
    -- the test property should be commented out.
    --test='admin'    
 }
-
-
 
 function main(Data)
    Server:serveRequest{data=Data}

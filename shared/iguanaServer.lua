@@ -30,7 +30,6 @@ local function checkParamTable(Arg, Optional)
    return Arg
 end
 
-
 local function checkParam(Args, Name, ExpectedType, Optional, DefaultValue)
    local Arg = Args[Name]
    if Optional and Arg == nil then

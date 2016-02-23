@@ -11,6 +11,7 @@ local Spinner = spin.getSpinner(regressions.config.hosts)
 --
 -- Local "helpers"
 --
+
 regressions.ThisIggy = iguanaServer.connect{
       url = iguana.webInfo().ip .. ':' .. iguana.webInfo().web_config.port,
       username = regressions.config.hosts['local']['user'],
