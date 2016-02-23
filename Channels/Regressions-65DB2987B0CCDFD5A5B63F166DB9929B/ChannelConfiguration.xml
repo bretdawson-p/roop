@@ -10,8 +10,8 @@
    <from_http
       type="mapper"
       guid="Regressions-FromHTTP-xfrnJM6HImyuvu"
-      commit_id="79205dae66c6fa18cae06b431316a01da6ca3a76"
-      commit_comment="Ready?"
+      commit_id="3e9d470f8d88bb1e1d589cb85588a86c519f024d"
+      commit_comment="er"
       mapper_url_path="regressions/"/>
    <message_filter
       filter_after_logging="false"
