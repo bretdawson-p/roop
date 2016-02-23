@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="1145539D867C4E69553AEF9771E98111"
-      commit_id="e8b06c8fbddb0ca82a664f90beab2dc022993cc5"
-      commit_comment="Go!"
+      commit_id="ff6d65cb2c649f6b9410c4424f88363e58ddaeb4"
+      commit_comment="GO"
       poll_time="10000">
    </from_mapper>
    <message_filter
