@@ -1,28 +1,8 @@
--- MINTY FRESH!
-require 'sha1'
-require 'sha1'
-require 'node'
-require 'sha1'
-require 'sha1'
-require 'art.art_harrison'
-require 'sha1'
-require 'art.harrison'
-require 'sha1'
-require 'art.super_harrison'
-require 'virtues.kindness'
-require 'sha1'
-require 'virtues.generosity'
-require 'sha1'
-require 'art.art_harrison'
-require 'sha1'
-require 'art.harrison'
-require 'sha1'
-require 'art.super_harrison'
-local Hi = require 'well_hello_there'
-
+-- Juicy Fruit Gum!!!!
 
 function main()
-   trace(Hi.allcaps)
-   trace(art_harrison())
-   
+   local sharedfiles = {['shared/well_hello_there.lua']= {} }
+   local collation = net.http.get{url='http://localhost:6543/sc/collate',
+      auth={username='admin', password='password'},
+      parameters={file_paths=json.serialize{data=sharedfiles}}, live=true}
 end
