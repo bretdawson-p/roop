@@ -9,8 +9,8 @@
    </to_channel>
    <from_mapper
       guid="1145539D867C4E69553AEF9771E98111"
-      commit_id="2e3f49ba89889a5d6c489d223e69a36fab3ca93a"
-      commit_comment="gum"
+      commit_id="1c1dbb7cacacae3ca311c3888610942b6a17306e"
+      commit_comment="GUMGUM"
       poll_time="10000">
    </from_mapper>
    <message_filter
