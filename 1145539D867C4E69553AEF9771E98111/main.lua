@@ -1,5 +1,7 @@
 -- Juicy Fruit Gum!!!!
 
+--gum is fun!
+
 function main()
    local sharedfiles = {['shared/well_hello_there.lua']= {} }
    local collation = net.http.get{url='http://localhost:6543/sc/collate',
